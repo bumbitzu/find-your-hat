@@ -177,6 +177,6 @@ class Field
 }
 
 // Starting the game.
-const generatedField = Field.generateField(20, 20, 0.2);
+const generatedField = Field.generateField(10, 40, 0.2);
 const myField = new Field(generatedField);
 myField.run();
